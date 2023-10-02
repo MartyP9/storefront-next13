@@ -12,6 +12,7 @@ npm i clsx tailwind-merge
 npm i lucide-react
 npm i query-string
 npm i zustand
+npm i axios
 npm install @headlessui/react
 
 ## Learn More
