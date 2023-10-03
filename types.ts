@@ -2,7 +2,9 @@ export interface Product {
     id: string;
     category: Category;
     name: string;
+    brand: string;
     price: string;
+    quantity: number;
     isFeatured: boolean;
     size: Size;
     color: Color;
@@ -37,3 +39,7 @@ export interface Product {
     name: string;
     value: string;
   };
+
+  export interface Gender {
+    name:string
+  }
